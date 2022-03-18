@@ -61,6 +61,7 @@ GEM
     faker (2.20.0)
       i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
+    foreman (0.87.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -155,6 +156,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   faker
+  foreman
   listen (>= 3.0.5, < 3.2)
   pry-rails
   puma (~> 3.11)
@@ -167,7 +169,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.5.8p224
+   ruby 2.5.9p229
 
 BUNDLED WITH
-   2.3.8
+   2.3.9
