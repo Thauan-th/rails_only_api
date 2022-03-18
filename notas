@@ -1,0 +1,17 @@
+Analisando respostas HTTP
+.
+Start-Line
+	A Start-Line pode ser dividida em duas partes , Request-Line e Status-Line, onde a Request-Line que indica a versão do HTTP que foi usado , e o Status Code que é a Status-Line indica o resultado da resposta
+	HTTP/1.1 200 OK
+.
+Header-Fields
+	Os Header Fields representam os metadados da requisição e resposta HTTP. Eles contém informações sobre como a transferencia dos dados deve ser manipulada.
+.	
+Message-Body
+	Corpo da mensagem que foi recebida pelo servidor
+---
+VERBOS HTTP : PUT VS PATCH
+	PUT => Usado quando vamos atualizar todos os campos
+	PATCH => Usado para atualizar apenas um campo 
+.
+
